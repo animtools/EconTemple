@@ -6,10 +6,12 @@ EconTemple に関する不具合報告・ご質問・「使ってみた」の感
 
 ## 連絡先
 
-| 内容 | 窓口 |
-|------|------|
-| **不具合報告** | [GitHub Issues](https://github.com/Shinosuke/EconTemple/issues) |
-| **質問・要望・感想** | 上記 Issues または **shinosuke.spark@gmail.com** |
+
+| 内容           | 窓口                                                                              |
+| ------------ | ------------------------------------------------------------------------------- |
+| **不具合報告**    | [GitHub Issues](https://github.com/Shinosuke/EconTemple/issues)                 |
+| **質問・要望・感想** | 上記 Issues または **[shinosuke.spark@gmail.com](mailto:shinosuke.spark@gmail.com)** |
+
 
 ---
 
