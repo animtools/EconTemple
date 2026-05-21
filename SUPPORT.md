@@ -26,5 +26,7 @@ EconTemple に関する不具合報告・ご質問・「使ってみた」の感
 
 ## 関連リンク
 
-- [USER_GUIDE.md](./USER_GUIDE.md) — 操作の詳細・困ったとき
-- [QUICKSTART.md](./QUICKSTART.md) — 最短の使い方
+- [QuickStart.md](./QuickStart.md) — 操作手順（画面キャプチャ付き）
+- [SAMPLE_WALKTHROUGH.md](./SAMPLE_WALKTHROUGH.md) — 同梱サンプルでの体験手順
+
+テスト段階のため、よくある質問の一覧や詳細マニュアル（USER_GUIDE）は公開していません。操作・不具合・要望は本ページの連絡先へお寄せください。

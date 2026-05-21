@@ -1,7 +1,7 @@
 # EconTemple（エコンテンプレ）
 
 > Conte Panel Extraction Tool for Animation Production Workflow  
-> コンテ（絵コンテ）画像からパネルを自動抽出し、CLIP STUDIO PAINT 用 XDTS 出力まで対応する Windows 用デスクトップアプリです。
+> コンテ（絵コンテ）画像からパネルを切り出し、CLIP STUDIO PAINT 用 XDTS 出力まで対応する Windows 用デスクトップアプリです。
 
 ---
 
@@ -48,7 +48,7 @@
 | **プロジェクト保存**     | 作業状態を保存・復元                              |
 
 
-用語の詳細は [USER_GUIDE.md](./USER_GUIDE.md) の「用語」セクションを参照してください。  
+用語の詳細は [QuickStart.md](./QuickStart.md) の用語セクションを参照してください。  
 ---
 
 ## システム要件
@@ -73,7 +73,7 @@
 2. `EconTemple.exe` をダブルクリックして起動
 3. コンテ画像（PDF読込またはフォルダで指定）を開き、パネル設定・カット割り当て・XDTS 出力を実行
 
-詳細は [QUICKSTART.md](./QUICKSTART.md) を参照してください。
+詳細は [QuickStart.md](./QuickStart.md) を参照してください。
 
 ---
 
@@ -91,13 +91,18 @@ zip を解凍して exe を起動するだけ。レジストリ変更なし。�
 
 ## 関連ドキュメント
 
-- [QUICKSTART.md](./QUICKSTART.md) — クイックスタート
-- [USER_GUIDE.md](./USER_GUIDE.md) — 操作の詳細（困ったとき）
+- [QuickStart.md](./QuickStart.md) — クイックスタート（操作手順）
+- [SAMPLE_WALKTHROUGH.md](./SAMPLE_WALKTHROUGH.md) — 同梱サンプルでの体験手順
+- [SUPPORT.md](./SUPPORT.md) — 不具合報告・質問・要望（テスト段階の主な問い合わせ先）
 - [CHANGELOG.md](./CHANGELOG.md) — バージョンごとの変更内容
-- [SUPPORT.md](./SUPPORT.md) — 不具合報告・質問窓口
+
+※ テスト段階では詳細マニュアル（USER_GUIDE）は公開していません。FAQ も [QuickStart.md](./QuickStart.md) から [SUPPORT.md](./SUPPORT.md) へ誘導しています。
 
 ---
 
 ## ライセンス
 
 利用条件は [LICENSE](./LICENSE) を参照してください。
+
+- **未認証**ではコンテグループ 5 個・カット編集 20 個/グループまでの制限があります。
+- **All-Access** または **EconTemple 買い切り** のライセンスキー認証で制限が解除されます（メニュー「ライセンス」）。
