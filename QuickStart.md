@@ -10,7 +10,9 @@
 1. `EconTemple.exe` を任意のフォルダに配置
 2. 完了
 
-**注意**: 初回起動時、Windows Defenderで実行がブロックされる場合があります。その場合は「詳細情報」→「実行」を選択してください。
+**注意**: 初回起動時、Windows Defender SmartScreen で実行がブロックされる場合があります。その場合は「詳細情報」→「実行」を選択してください。
+
+![Windows Defender SmartScreen 警告画面](screenshots/install_smartscreen_warning.jpg)
 
 ---
 
