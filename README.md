@@ -63,7 +63,7 @@
 
 [Releases](https://github.com/animtools/EconTemple/releases) から最新の **EconTemple-vX.Y.Z-win64.zip** を取得し、解凍して `EconTemple/EconTemple.exe` を起動してください。
 
-**VirusTotal スキャン結果**: 各 [リリースページ](https://github.com/animtools/EconTemple/releases) の説明欄に掲載しています（`EconTemple.exe` をスキャン）。
+**VirusTotal**: 各 [リリースページ](https://github.com/animtools/EconTemple/releases) の説明欄にスキャン結果 URL がある場合があります。配布 zip が大きく自動スキャンしていないリリースでは、同ページの案内に従い、必要なら [VirusTotal](https://www.virustotal.com/gui/home/upload) に zip をアップロードしてご確認ください（SHA-256 も記載しています）。
 
 ---
 
