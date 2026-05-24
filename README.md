@@ -96,8 +96,6 @@ zip を解凍して exe を起動するだけ。レジストリ変更なし。�
 - [SUPPORT.md](./SUPPORT.md) — お問い合わせ（不具合報告・質問・要望・感想）
 - [CHANGELOG.md](./CHANGELOG.md) — バージョンごとの変更内容
 
-※ 画面ごとの詳しい操作説明書は現在公開していません。操作手順は [QuickStart.md](./QuickStart.md) と [SAMPLE_WALKTHROUGH.md](./SAMPLE_WALKTHROUGH.md) を、ご質問・不具合報告は [SUPPORT.md](./SUPPORT.md) をご利用ください。
-
 ---
 
 ## ライセンス
