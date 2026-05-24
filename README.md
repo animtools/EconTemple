@@ -61,9 +61,9 @@
 
 ## ダウンロード
 
-[Releases](https://github.com/Shinosuke/EconTemple/releases) から最新の **EconTemple-vX.Y.Z-win64.zip** を取得し、解凍して付属の `EconTemple.exe` を起動してください。
+[Releases](https://github.com/animtools/EconTemple/releases) から最新の **EconTemple-vX.Y.Z-win64.zip** を取得し、解凍して `EconTemple/EconTemple.exe` を起動してください。
 
-**VirusTotal スキャン結果**: 各 [リリースページ](https://github.com/Shinosuke/EconTemple/releases) の説明欄に掲載しています。
+**VirusTotal スキャン結果**: 各 [リリースページ](https://github.com/animtools/EconTemple/releases) の説明欄に掲載しています（`EconTemple.exe` をスキャン）。
 
 ---
 

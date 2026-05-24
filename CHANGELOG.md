@@ -4,7 +4,7 @@
 
 ---
 
-## [0.9.0-beta](https://github.com/Shinosuke/EconTemple/releases) - 2026-05-22
+## [0.9.0-beta](https://github.com/animtools/EconTemple/releases/tag/v0.9.0-beta) - 2026-05-22
 
 Windows 64bit ポータブル版（zip 解凍して `EconTemple.exe` を起動）のベータ配布です。
 
