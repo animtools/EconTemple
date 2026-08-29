@@ -779,7 +779,7 @@ PDFファイルのコンテを読み込むこともできます。
 | 内容 | 窓口 |
 | --- | --- |
 | **不具合報告** | [GitHub Issues](https://github.com/animtools/EconTemple/issues) |
-| **質問・要望・感想** | 上記 Issues または [shinosuke.spark@gmail.com](mailto:shinosuke.spark@gmail.com) |
+| **質問・要望・感想** | 上記 Issues または [shinosuke.support@gmail.com](mailto:shinosuke.support@gmail.com) |
 
 ### バグ報告のお願い
 
