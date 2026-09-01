@@ -4,7 +4,7 @@
 
 ---
 
-## [0.10.0-beta](https://github.com/animtools/EconTemple/releases/tag/v0.10.0-beta) - 2026-08-30
+## [0.10.0-beta](https://github.com/animtools/EconTemple/releases/tag/v0.10.0-beta) - 2026-09-01
 
 前回（0.9.0-beta）から約3か月分の更新です。書き出しとカット一覧が作り替わり、
 配布フォルダ経由でプロジェクトを配る／受け取る経路が入りました。
