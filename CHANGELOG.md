@@ -6,6 +6,8 @@
 
 ## [Unreleased]
 
+## [0.11.0-beta](https://github.com/animtools/EconTemple/releases/tag/v0.11.0-beta) - 2026-10-01
+
 ### 変更
 
 - **課金線を引き直しました。** 無料版のグループ数・カット数の制限（コンテグループ 5・カット 20/グループ）をなくしました。
