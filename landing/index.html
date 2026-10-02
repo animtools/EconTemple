@@ -187,14 +187,14 @@
   .aud-card li::before { content: "✓"; position: absolute; left: 0; color: var(--ok); font-weight: 800; }
 
   /* pricing */
-  .price-grid { display: grid; grid-template-columns: repeat(auto-fit, minmax(280px, 1fr)); gap: 24px; margin-top: 40px; max-width: 760px; margin-left: auto; margin-right: auto; }
+  .price-grid { display: grid; grid-template-columns: repeat(auto-fit, minmax(280px, 1fr)); gap: 24px; margin-top: 40px; max-width: 1040px; margin-left: auto; margin-right: auto; }
   .price-card {
     border: 1px solid var(--line); border-radius: var(--radius); padding: 34px 30px;
     background: #fff; text-align: center; box-shadow: var(--shadow-sm);
   }
   .price-card.featured { border: 2px solid var(--accent); position: relative; }
   .price-card.featured::before {
-    content: "制限なしで使う"; position: absolute; top: -13px; left: 50%; transform: translateX(-50%);
+    content: "書き出しを仕上げる"; position: absolute; top: -13px; left: 50%; transform: translateX(-50%);
     background: var(--accent); color: #fff; font-size: .75rem; font-weight: 700;
     padding: 3px 16px; border-radius: 999px; white-space: nowrap;
   }
@@ -247,6 +247,11 @@
   .foot-links { display: flex; flex-wrap: wrap; gap: 20px; }
   .copyright { margin-top: 30px; font-size: .8rem; color: #5c6a80; }
 
+  .f-media img { display:block; max-width:100%; height:auto; margin:0 auto; }
+  .f-media.tall { background:#f3f4f6; padding:16px; }
+  .f-media.tall img { max-height:440px; width:auto; }
+  .feature-row.stack { grid-template-columns: 1fr; gap: 24px; }
+  .feature-row.stack .f-media { order: 0; }
   .media-pending { display:flex; align-items:center; justify-content:center; text-align:center;
     min-height:220px; padding:32px 24px; border:1px dashed #c7cdd6; border-radius:12px;
     background:#f7f8fa; color:#6b7280; font-size:.92rem; line-height:1.8; }
@@ -388,7 +393,7 @@
     </div>
 
     <div class="feature-row rev">
-      <div class="f-media"><div class="media-pending"><span><b>スクリーンショット準備中</b>カット編集パネル</span></div></div>
+      <div class="f-media tall"><img src="assets/cut_edit_panel.png" alt="カット編集パネル：カット番号・尺（秒＋コマ）・メモ・パネル一覧"></div>
       <div class="f-copy">
         <span class="tag">CUT MANAGEMENT</span>
         <h3>尺・セリフ・カメラワークをカット単位で一元管理</h3>
@@ -405,7 +410,7 @@
     </div>
 
     <div class="feature-row">
-      <div class="f-media"><div class="media-pending"><span><b>スクリーンショット準備中</b>兼用カットの設定</span></div></div>
+      <div class="f-media tall"><img src="assets/shared_cuts.png" alt="兼用カットの設定：2カットを選んで右クリックし「兼用カットに設定」"></div>
       <div class="f-copy">
         <span class="tag">SHARED CUTS</span>
         <h3>兼用カットを、口頭とメモ頼みから卒業</h3>
@@ -430,8 +435,8 @@
       </div>
     </div>
 
-    <div class="feature-row">
-      <div class="f-media"><div class="media-pending"><span><b>スクリーンショット準備中</b>CLIP STUDIO PAINT で開いた作画ファイル</span></div></div>
+    <div class="feature-row stack">
+      <div class="f-media"><img src="assets/clipstudio_xdts_import.jpg" alt="CLIP STUDIO PAINT で XDTS を読み込んだタイムライン（尺の入ったカットとパネル画像）"></div>
       <div class="f-copy">
         <span class="tag">CLIP STUDIO PAINT</span>
         <h3>XDTS 出力で、クリスタにそのまま渡す</h3>
@@ -459,12 +464,12 @@
       <div class="trust-card">
         <div class="ic">🔒</div>
         <h3>データは完全ローカル</h3>
-        <p>プロジェクトも設定もすべてローカル保存。クラウド接続なし・個人情報の送信なし。公開前の未発表作品も安心して扱えます。</p>
+        <p>プロジェクトも設定もすべてローカル保存。コンテの内容や個人情報を外へ送ることはありません（インターネットに接続するのはライセンスの確認のときだけ）。公開前の未発表作品も安心して扱えます。</p>
       </div>
       <div class="trust-card">
         <div class="ic">📦</div>
         <h3>インストール不要・ポータブル</h3>
-        <p>zip を解凍して exe を起動するだけ。レジストリ変更なし。管理者権限が制限されたスタジオの PC でも、フォルダごと移動して使えます。</p>
+        <p>zip を解凍して exe を起動するだけ。レジストリ変更なし。設定は exe と同じフォルダの <code>EconTempleData</code> に保存されるので、管理者権限が制限されたスタジオの PC でも、フォルダごと移動して使えます（ライセンスは移した先の PC で認証し直します）。</p>
       </div>
       <div class="trust-card">
         <div class="ic">🛡️</div>
@@ -490,7 +495,7 @@
         <span class="role">制作進行の方へ</span>
         <h3>作画素材の準備・配布を、確実に速く</h3>
         <ul>
-          <li>コンテからカット袋相当の素材一式をまとめて生成</li>
+          <li>コンテから作画素材一式をまとめて生成</li>
           <li>シーン・担当者管理で、アニメーター別の配布物を整理</li>
           <li>兼用カットの関係がデータで残るので、引き継ぎミスを防止</li>
           <li>尺・セリフ入りのタイムシートを事前準備して、作画側の負担を軽減</li>
@@ -517,13 +522,11 @@
     <h2>受け取る側は、ライセンスなしで使えます</h2>
     <p class="sec-lead">
       配られたプロジェクトを開いて使う側——演出・レイアウト・作画の各担当——は、
-      <strong>ライセンス認証をしなくても、規模の制限も受けずに</strong>そのまま使えます。
-      現場の人数分のライセンスを用意する必要はありません。
+      <strong>ライセンス認証なしで</strong>そのまま使えます。現場の人数分のライセンスを用意する必要はありません。
     </p>
     <p class="sec-lead">
-      ライセンスが要るのは、プロジェクトを<strong>発行する側</strong>（作打ち・制作進行）だけです。
-      その発行側の制限も、体験版の期限ではなく<strong>扱える規模</strong>で区切っています。
-      小規模なテストなら無料のまま、実運用の規模になったらライセンス認証で解除できます。
+      無料版でも、コンテの読み込みからパネル・カットの整理、パネル画像の書き出し、カットごとの XDTS まで、<strong>制限なく</strong>使えます。
+      ライセンスが要るのは、書き出しを仕上げたいとき（<strong>個人用</strong>）と、プロジェクトを配る側（<strong>スタジオ用</strong>）です。
     </p>
     <p class="sec-lead">
       配り方と受け取り方は <a href="https://github.com/animtools/EconTemple/blob/main/SHARING_GUIDE.md">プロジェクト共有のガイド</a> にまとめています。
@@ -533,24 +536,31 @@
         <h3>無料版</h3>
         <div class="amount">¥0</div>
         <ul>
-          <li>全機能が利用可能</li>
-          <li>コンテグループ 5 個まで</li>
-          <li>カット編集 20 個／グループまで</li>
-          <li>XDTS 出力・クリスタ連携も制限なし</li>
-          <li>配られたプロジェクトを受け取る側は、この制限も受けません</li>
+          <li>基本的な機能を制限なしで（グループ数・カット数の制限なし）</li>
+          <li>パネル画像の書き出し・カットごとの XDTS（ドラッグ）・クリスタ連携</li>
+          <li>配られたプロジェクトの受け取り</li>
         </ul>
       </div>
       <div class="price-card featured">
-        <h3>All-Access</h3>
-        <div class="amount">月額サブスク<small>（7日間の無料トライアル付き）</small></div>
+        <h3>個人用</h3>
+        <div class="amount">All-Access<small>（月額サブスク・7日間の無料トライアル付き）</small></div>
         <ul>
-          <li>グループ数・カット数の制限を解除</li>
-          <li>話数単位の実運用に対応する規模</li>
+          <li>書き出しの追加機能：テンプレートの書き出し・XDTS の一括書き出し・フォルダ分けの書き出し・枠やガイドを入れた書き出し</li>
           <li>EconTemple 以外の Shinosuke ツールも同じキーで使えます</li>
           <li>3 台まで。入れ替えはご自分でできます</li>
           <li>認証後もデータはローカルのまま</li>
         </ul>
         <a class="cta-mini" href="https://shinosuke-site.vercel.app/pricing.html">料金プランを見る</a>
+      </div>
+      <div class="price-card">
+        <h3>スタジオ用</h3>
+        <div class="amount">年額<small>（3 台）</small></div>
+        <ul>
+          <li>プロジェクトの発行：共有フォルダで配り、更新を届ける</li>
+          <li>個人用の機能をすべて含む</li>
+          <li>配られた側の「［発行元］」付きの購読では、個人用の書き出し機能も使えます</li>
+        </ul>
+        <a class="cta-mini" href="https://github.com/animtools/EconTemple/blob/main/SUPPORT.md">料金・提供開始はお問い合わせください</a>
       </div>
     </div>
     <p class="price-note">
@@ -576,15 +586,15 @@
       </details>
       <details>
         <summary>会社の PC にインストールできるか不安です。</summary>
-        <p>インストーラーを使わないポータブル形式のため、zip を解凍するだけで動作します。レジストリの変更や管理者権限は不要です。配布 zip の SHA-256 ハッシュを公開しており、VirusTotal での確認手順もご案内しています。</p>
+        <p>インストーラーを使わないポータブル形式のため、zip を解凍するだけで動作します。レジストリの変更や管理者権限は不要で、設定は exe と同じフォルダの <code>EconTempleData</code> に保存されます。配布 zip の SHA-256 ハッシュを公開しており、VirusTotal での確認手順もご案内しています。</p>
       </details>
       <details>
         <summary>作業データが外部に送信されることはありませんか？</summary>
-        <p>ありません。プロジェクトファイル・設定・画像はすべてローカルに保存され、アプリがコンテ内容を外部へ送信することはありません。未発表作品のコンテも安心してお使いいただけます。</p>
+        <p>ありません。プロジェクトファイル・設定・画像はすべてローカルに保存され、アプリがコンテ内容を外部へ送信することはありません（インターネットに接続するのはライセンスの確認のときだけです）。未発表作品のコンテも安心してお使いいただけます。</p>
       </details>
       <details>
-        <summary>無料版の制限を超えたらデータはどうなりますか？</summary>
-        <p>作成済みのデータが消えることはありません。ライセンスキーを認証すれば、そのままのプロジェクトで制限が解除されます。</p>
+        <summary>ライセンスが切れたら、データはどうなりますか？</summary>
+        <p>プロジェクトや設定が消えることはありません。無料版の範囲（パネル画像の書き出し・カットごとの XDTS など）はそのまま使え、使えなくなるのは書き出しの追加機能と発行だけです。</p>
       </details>
       <details>
         <summary>不具合や要望はどこに送ればいいですか？</summary>
@@ -597,10 +607,9 @@
 <!-- ============ FINAL CTA ============ -->
 <section class="final-cta">
   <div class="wrap">
-    <h2>次のカット袋づくりから、試してみませんか。</h2>
+    <h2>次のカットの準備から、試してみませんか。</h2>
     <p class="sec-lead">
-      ダウンロードして解凍するだけで、5分後には手元のコンテでパネル切り出しを始められます。<br>
-      同梱のサンプルプロジェクトで、まずは一連の流れを体験してください。
+      ダウンロードして解凍するだけで、5分後には手元のコンテでパネル切り出しを始められます。
     </p>
     <div class="cta-row">
       <a class="btn btn-primary" href="https://github.com/animtools/EconTemple/releases">⬇ 最新版を無料ダウンロード</a>
