@@ -6,7 +6,7 @@
 
 ## [Unreleased]
 
-## [0.11.4-beta](https://github.com/animtools/EconTemple/releases/tag/v0.11.4-beta) - 2026-10-13
+## [0.11.4-beta](https://github.com/animtools/EconTemple/releases/tag/v0.11.4-beta) - 2026-10-14
 
 0.11.2-beta・0.11.3-beta は公開していません。その間の変更も、この版にまとめて書いています。
 
