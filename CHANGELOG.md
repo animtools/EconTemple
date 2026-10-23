@@ -6,6 +6,12 @@
 
 ## [Unreleased]
 
+## [0.11.5-beta](https://github.com/animtools/EconTemple/releases/tag/v0.11.5-beta) - 2026-10-23
+
+### 修正
+
+- **ライセンスの確認の通信で、証明書の確認を Windows に任せるようにしました。** 2026年10月に公表された認証局（eMudhra）の鍵の漏洩で、0.11.4-beta までは偽のサーバーを見分けられないおそれがありました。古い版をお使いの方はこの版に入れ替えてください。
+
 ## [0.11.4-beta](https://github.com/animtools/EconTemple/releases/tag/v0.11.4-beta) - 2026-10-14
 
 0.11.2-beta・0.11.3-beta は公開していません。その間の変更も、この版にまとめて書いています。
