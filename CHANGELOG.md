@@ -6,6 +6,13 @@
 
 ## [Unreleased]
 
+## [0.12.1-beta](https://github.com/animtools/EconTemple/releases/tag/v0.12.1-beta) - 2026-11-05
+
+### 修正
+
+- **多段表示をオンにしてカットを切り替えると、異常終了することがあるのを直しました。**
+- コンテグループを切り替えた直後に、表示の切り替えが効かないことがあるのを直しました。
+
 ## [0.12.0-beta](https://github.com/animtools/EconTemple/releases/tag/v0.12.0-beta) - 2026-11-05
 
 ### 追加
